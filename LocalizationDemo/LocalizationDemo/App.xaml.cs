@@ -25,10 +25,6 @@ namespace SfChatDemo
             {
                 DependencyService.Get<ILocalize>().SetLocale(new CultureInfo("fr-FR"));
             }
-            else
-            {
-                DependencyService.Get<ILocalizeUWP>().SetLocale(new CultureInfo("fr-FR"));
-            }
         }
 
         protected override void OnStart()

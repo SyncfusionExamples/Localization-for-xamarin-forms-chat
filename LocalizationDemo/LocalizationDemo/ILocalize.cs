@@ -49,12 +49,7 @@ namespace SfChatDemo
 
         public override string ToString()
         {
-            return PlatformString; ;
+            return PlatformString;
         }
-    }
-
-    public interface ILocalizeUWP
-    {
-        void SetLocale(CultureInfo cultureInfo);
     }
 }

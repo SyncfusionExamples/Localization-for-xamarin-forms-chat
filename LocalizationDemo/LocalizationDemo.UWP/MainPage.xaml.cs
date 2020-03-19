@@ -22,7 +22,7 @@ namespace SfChatDemo.UWP
         {
             this.InitializeComponent();
             Syncfusion.XForms.UWP.Chat.SfChatRenderer.Init();
-            
+            CultureInfo.CurrentUICulture = new CultureInfo("fr");
             LoadApplication(new SfChatDemo.App());
         }
     }
