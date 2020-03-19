@@ -103,12 +103,6 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\LocalizationDemo\Error\NoInternet.png">
-      <Link>NoInternet.png</Link>
-    </Content>
-    <Content Include="..\LocalizationDemo\Robo\ChatRobot.png">
-      <Link>ChatRobot.png</Link>
-    </Content>
     <Content Include="Assets\LargeTile.scale-100.png" />
     <Content Include="Assets\LargeTile.scale-200.png" />
     <Content Include="Assets\LargeTile.scale-400.png" />

@@ -74,16 +74,15 @@ namespace SfChatDemo
         {
             this.messages.Add(new TextMessage()
             {
-                Author = new Author() { Name = "Andrea", Avatar = "People_Circle2.png" },
-                Text = "Oh! That's great.",
+                Author = new Author() { Name = "Margaret", Avatar = "People_Circle7.png" },
+                Text = "What kind of application is it and when are we going to launch?",
                 ShowAvatar = true,
             });
 
-
             this.messages.Add(new TextMessage()
             {
-                Author = new Author() { Name = "Margaret", Avatar = "People_Circle7.png" },
-                Text = "What kind of application is it and when are we going to launch?",
+                Author = new Author() { Name = "Andrea", Avatar = "People_Circle2.png" },
+                Text = "Hi.",
                 ShowAvatar = true,
             });
         }

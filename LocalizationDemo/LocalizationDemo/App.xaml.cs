@@ -14,7 +14,7 @@ namespace SfChatDemo
         public App()
         {
             InitializeComponent();
-            MainPage = new FlightBooking();
+            MainPage = new ChatPage();
             ChatResourceManager.Manager = new ResourceManager("LocalizationDemo.Syncfusion.SfChat.XForms", this.GetType().GetTypeInfo().Assembly);
             // the ResourceManager class constructor has two parameters.
             // 1. ResXPath => Full path of the resx file in the application. Here in the above line GettingStarted refers to the namespace of the Application

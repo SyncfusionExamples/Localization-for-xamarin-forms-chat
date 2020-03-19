@@ -161,14 +161,4 @@
       <Name>LocalizationDemo</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="..\LocalizationDemo\Error\NoInternet.png">
-      <Link>Resources\NoInternet.png</Link>
-    </BundleResource>
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="..\LocalizationDemo\Robo\ChatRobot.png">
-      <Link>Resources\ChatRobot.png</Link>
-    </BundleResource>
-  </ItemGroup>
 </Project>
