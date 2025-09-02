@@ -4,3 +4,38 @@ Localization is the process of translating application resources into different 
 
 * Today
 * Type a Message
+
+## Sample
+
+```xaml
+
+App.xaml.cs:
+
+        public App()
+        {
+            InitializeComponent();
+            MainPage = new ChatPage();
+            ChatResourceManager.Manager = new ResourceManager("LocalizationDemo.Syncfusion.SfChat.XForms", this.GetType().GetTypeInfo().Assembly);
+            // the ResourceManager class constructor has two parameters.
+            // 1. ResXPath => Full path of the resx file in the application. Here in the above line GettingStarted refers to the namespace of the Application
+            // 2. Assembly => Application assembly (PCL)
+
+            // Sets the required culture to the static texts in the control.
+            if (Device.RuntimePlatform == Device.Android || Device.RuntimePlatform == Device.iOS)
+            {
+                DependencyService.Get<ILocalize>().SetLocale(new CultureInfo("fr-FR"));
+            }
+        }
+
+```
+
+## Requirements to run the demo
+
+* [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/) or [Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/)
+* Xamarin add-ons for Visual Studio (available via the Visual Studio installer).
+
+## Troubleshooting
+
+### Path too long exception
+
+If you are facing path too long exception when building this example project, close Visual Studio and rename the repository to short and build the project.
